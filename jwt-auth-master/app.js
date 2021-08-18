@@ -14,7 +14,7 @@ db();
 //DEFAULT ROUTE
 
 app.get("/", (req, res) => {
-  res.send ("ice cold")
+  res.send ("<h1>Ice Cold</h1>")
 })
 // Body Parser
 app.use(express.json());
